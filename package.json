@@ -1,0 +1,19 @@
+{
+  "name": "antigravity-rtl-toolkit",
+  "version": "0.1.0",
+  "description": "Local RTL rendering fixes for Arabic/English Antigravity Desktop conversations.",
+  "type": "module",
+  "scripts": {
+    "inject": "node desktop/inject.mjs"
+  },
+  "keywords": [
+    "antigravity",
+    "rtl",
+    "arabic",
+    "bidi"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.tools/
+.cache/
+.DS_Store
+*.log
+body.html
+inspect_dom.js
+codex-rtl-toolkit/
+*.zip

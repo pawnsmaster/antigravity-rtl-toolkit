@@ -1,0 +1,77 @@
+:root {
+  --antigravity-rtl-text-align: right;
+}
+
+[data-antigravity-rtl-root="true"] [data-antigravity-rtl="true"],
+[data-antigravity-rtl-root="true"] [dir="rtl"] {
+  direction: rtl !important;
+  text-align: var(--antigravity-rtl-text-align) !important;
+  unicode-bidi: isolate !important;
+}
+
+[data-antigravity-rtl-root="true"] [data-antigravity-bidi="auto"] {
+  unicode-bidi: plaintext !important;
+}
+
+[data-antigravity-rtl-root="true"] [data-antigravity-ltr-run="true"] {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+}
+
+[data-antigravity-rtl-root="true"] pre,
+[data-antigravity-rtl-root="true"] pre *,
+[data-antigravity-rtl-root="true"] pre [dir],
+[data-antigravity-rtl-root="true"] code,
+[data-antigravity-rtl-root="true"] code *,
+[data-antigravity-rtl-root="true"] kbd,
+[data-antigravity-rtl-root="true"] samp,
+  [data-antigravity-rtl-root="true"] [class*="code-block" i],
+  [data-antigravity-rtl-root="true"] [class*="code-block" i] *,
+  [data-antigravity-rtl-root="true"] [class*="codeblock" i],
+  [data-antigravity-rtl-root="true"] [class*="codeblock" i] *,
+[data-antigravity-rtl-root="true"] [class*="highlight" i],
+[data-antigravity-rtl-root="true"] [class*="highlight" i] *,
+[data-antigravity-rtl-root="true"] [class*="shiki" i],
+[data-antigravity-rtl-root="true"] [class*="shiki" i] *,
+[data-antigravity-rtl-root="true"] [class*="terminal" i],
+[data-antigravity-rtl-root="true"] [class*="monaco" i] {
+  direction: ltr !important;
+  text-align: left !important;
+  unicode-bidi: isolate !important;
+}
+
+[data-antigravity-rtl-root="true"] textarea,
+[data-antigravity-rtl-root="true"] input,
+[data-antigravity-rtl-root="true"] [role="textbox"],
+[data-antigravity-rtl-root="true"] [role="combobox"] {
+  text-align: start !important;
+}
+
+[data-antigravity-rtl-root="true"] :not(pre) > code {
+  display: inline-block;
+}
+
+[data-antigravity-rtl-root="true"] code[data-antigravity-markdown="true"] {
+  display: block !important;
+  width: 100% !important;
+}
+
+[data-antigravity-rtl-root="true"] code [data-antigravity-markdown-rtl="true"] {
+  display: block !important;
+  width: 100% !important;
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: isolate !important;
+}
+
+[data-antigravity-rtl-root="true"] p,
+[data-antigravity-rtl-root="true"] li,
+[data-antigravity-rtl-root="true"] blockquote,
+[data-antigravity-rtl-root="true"] h1,
+[data-antigravity-rtl-root="true"] h2,
+[data-antigravity-rtl-root="true"] h3,
+[data-antigravity-rtl-root="true"] h4,
+[data-antigravity-rtl-root="true"] h5,
+[data-antigravity-rtl-root="true"] h6 {
+  unicode-bidi: plaintext !important;
+}
