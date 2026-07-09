@@ -2,7 +2,7 @@
 
 Local Right-to-Left (RTL) rendering fixes for Arabic/English mixed text in the Google Antigravity Desktop application.
 
-![Antigravity RTL Toolkit Demo](demo.png)
+![Antigravity RTL Toolkit Demo](demo_clean.png)
 
 ---
 
